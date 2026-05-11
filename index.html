@@ -17,6 +17,27 @@
             <strong>Wikipedia Data Collection & Cleaning</strong><br>
             Collected, cleaned, and standardized data from 50+ public opinion polls on Wikipedia.<br>
             <a href="https://en.wikipedia.org/wiki/Special:Contributions/CGP05">View Contributions</a>
+            <script>
+async function loadWikiEdits() {
+  const url =
+    "https://en.wikipedia.org/w/api.php?action=query&list=users&ususers=CGP05&usprop=editcount&format=json&origin=*";
+
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+
+    const count = data.query.users[0].editcount;
+
+    document.getElementById("wiki-edits").textContent =
+      count.toLocaleString();
+  } catch (error) {
+    document.getElementById("wiki-edits").textContent =
+      "Unavailable";
+  }
+}
+
+loadWikiEdits();
+</script>
         </li>
     </ul>
 
