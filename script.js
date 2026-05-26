@@ -1,5 +1,5 @@
 /**
- * Script adapted from: https://github.com/rjshkhr/cleanfolio-minimal
+ * Script from: https://github.com/rjshkhr/cleanfolio-minimal
  * Original author: rjshkhr
  * License: Check the original repository for license information
 **/
