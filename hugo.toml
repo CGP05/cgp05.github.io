@@ -15,12 +15,12 @@ weight = 10
 
 [[menu.main]]
 identifier = "posts"
-name = "Essays"
+name = "Portfolio"
 url = "/posts/"
 weight = 20
 
 [[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 30
+identifier = "projects"
+name = "Resume"
+url = "/projects/"
+weight = 25
