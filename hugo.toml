@@ -3,24 +3,24 @@ languageCode = "en-us"
 title = "Christian P."
 theme = "PaperMod"
 
-[params]
-homeInfoParams:
-    Title = "Welcome"
-    Content = "Student | Essays | Projects"
+[params.homeInfoParams]
+Title = "Welcome"
+Content = "Student | Essays | Projects"
 
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 10
-  [[menu.main]]
-    identifier = "posts"
-    name = "Essays"
-    url = "/posts/"
-    weight = 20
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 30
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "posts"
+name = "Essays"
+url = "/posts/"
+weight = 20
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 30
