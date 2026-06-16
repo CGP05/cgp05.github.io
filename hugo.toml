@@ -5,7 +5,7 @@ theme = "PaperMod"
 
 [params.homeInfoParams]
 Title = "Welcome"
-Content = "Economics and Applied Statistics student at the University of Toronto"
+Content = "Economics and Applied Statistics student at the University of Toronto Mississauga"
 
 [[menu.main]]
 identifier = "home"
