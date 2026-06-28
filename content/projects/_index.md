@@ -8,6 +8,4 @@ title: "Resume"
 
 ## Relevant Coursework
 
-- Course Name 1
-- Course Name 2
-- Course Name 3
+- ECO220: Introduction to Data Analysis and Applied Econometrics
