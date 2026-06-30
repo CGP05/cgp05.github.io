@@ -14,13 +14,13 @@ url = "/"
 weight = 10
 
 [[menu.main]]
-identifier = "posts"
+identifier = "portfolio"
 name = "Portfolio"
-url = "/posts/"
+url = "/portfolio/"
 weight = 20
 
 [[menu.main]]
-identifier = "projects"
+identifier = "resume"
 name = "Resume"
-url = "/projects/"
+url = "/resume/"
 weight = 25
