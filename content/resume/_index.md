@@ -2,9 +2,7 @@
 title: "Resume"
 ---
 
-## Resume
-
-[Download Resume (PDF)](resume.pdf)
+[Resume (PDF)](resume.pdf)
 
 ## Relevant Coursework
 
