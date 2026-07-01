@@ -3,11 +3,14 @@ languageCode = "en-us"
 title = "Christian P."
 theme = "PaperMod"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params.homeInfoParams]
 Title = "Welcome"
-Content = """Economics and Applied Statistics student at the University of Toronto Mississauga
-
-<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/36yGTguFbF5fzakQ5LFiba?si=14434754c0f347f5\" width=\"100%\" height=\"380\" frameborder=\"0\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe>"""
+Content = """Economics and Applied Statistics student at the University of Toronto Mississauga"""
 
 [[menu.main]]
 identifier = "home"
@@ -20,6 +23,12 @@ identifier = "portfolio"
 name = "Portfolio"
 url = "/portfolio/"
 weight = 20
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 24
 
 [[menu.main]]
 identifier = "resume"
