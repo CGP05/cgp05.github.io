@@ -25,13 +25,13 @@ url = "/portfolio/"
 weight = 20
 
 [[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 24
-
-[[menu.main]]
 identifier = "resume"
 name = "Resume"
 url = "/resume/"
 weight = 25
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 24
