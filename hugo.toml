@@ -8,6 +8,9 @@ theme = "PaperMod"
     [markup.goldmark.renderer]
       unsafe = true
 
+[params]
+mainSections = ["portfolio"]
+
 [params.homeInfoParams]
 Title = "Welcome"
 Content = """Economics and Applied Statistics student at the University of Toronto Mississauga"""
