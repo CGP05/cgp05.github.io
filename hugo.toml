@@ -5,7 +5,9 @@ theme = "PaperMod"
 
 [params.homeInfoParams]
 Title = "Welcome"
-Content = "Economics and Applied Statistics student at the University of Toronto Mississauga"
+Content = """Economics and Applied Statistics student at the University of Toronto Mississauga
+
+<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/36yGTguFbF5fzakQ5LFiba?si=14434754c0f347f5\" width=\"100%\" height=\"380\" frameborder=\"0\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\"></iframe>"""
 
 [[menu.main]]
 identifier = "home"
