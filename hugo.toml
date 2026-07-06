@@ -31,10 +31,10 @@ weight = 20
 identifier = "resume"
 name = "Resume"
 url = "/resume/"
-weight = 25
+weight = 24
 
 [[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"
-weight = 24
+weight = 25
