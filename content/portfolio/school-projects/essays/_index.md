@@ -1,5 +1,5 @@
 ---
-title: "A Few of My Essays"
+title: "A few of my essays"
 hiddenInHomeList: true
 ---
 
