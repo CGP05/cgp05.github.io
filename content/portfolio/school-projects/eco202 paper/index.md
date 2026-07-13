@@ -7,7 +7,11 @@ params:
   hiddenInHomeList: true
 ---
 
-This paper is my ECO202 research assignment on government spending and 
+This paper is my ECO202 research assignment on government spending and GDP growth in Canada over the past approximately 40 years, with statistical analysis done in Python.
+
+<h3>Analysis notebook</h3>
+<p>You can view the notebook below, or <a href="https://github.com/CGP05/ECO202-government-spending-and-economic-growth-paper/blob/main/canada_deficit_growth_colab_notebook%20by%20shazia.ipynb" target="_blank" rel="noopener noreferrer">open it on GitHub</a>.</p>
+<iframe src="https://nbviewer.org/github/CGP05/ECO202-government-spending-and-economic-growth-paper/blob/main/canada_deficit_growth_colab_notebook%20by%20shazia.ipynb" width="100%" height="900px" style="border: 1px solid #ddd; background: white;"></iframe>
 
 <div id="pdf-viewer" style="border: 1px solid #ddd; padding: 12px; background: #fafafa;"></div>
 
