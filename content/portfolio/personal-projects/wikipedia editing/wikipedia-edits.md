@@ -15,7 +15,7 @@ I help maintain Wikipedia by contributing edits that improve the quality and cla
   const username = 'CGP05';
   const countEl = document.getElementById('wiki-edit-count');
 
-  fetch(`https://xtools.wmcloud.org/api/user/editcount/${encodeURIComponent(username)}?format=json`)
+  fetch(`https://en.wikipedia.org/w/api.php?action=query&list=users&ususers=${encodeURIComponent(username)}&usprop=editcount&format=json&origin=*`)
     .then(function (response) {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -23,7 +23,8 @@ I help maintain Wikipedia by contributing edits that improve the quality and cla
       return response.json();
     })
     .then(function (data) {
-      const count = data && data.editcount ? data.editcount : 'unknown';
+      const user = data && data.query && data.query.users && data.query.users[0];
+      const count = user && user.editcount !== undefined ? user.editcount : 'unknown';
       countEl.textContent = count;
     })
     .catch(function () {
