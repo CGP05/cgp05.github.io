@@ -32,7 +32,7 @@ weight = 2
 identifier = "resume"
 name = "Resume"
 url = "/resume/"
-weight = 23
+weight = 3
 
 [[menu.main]]
 identifier = "about"
