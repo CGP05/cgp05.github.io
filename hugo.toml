@@ -20,22 +20,22 @@ I also build civic tech projects with Python, R, and SQL on [my GitHub](https://
 identifier = "home"
 name = "Home"
 url = "/"
-weight = 10
+weight = 1
 
 [[menu.main]]
 identifier = "portfolio"
 name = "Portfolio"
 url = "/portfolio/"
-weight = 20
+weight = 2
 
 [[menu.main]]
 identifier = "resume"
 name = "Resume"
 url = "/resume/"
-weight = 24
+weight = 23
 
 [[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"
-weight = 25
+weight = 4
