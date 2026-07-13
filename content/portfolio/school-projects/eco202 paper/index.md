@@ -1,5 +1,5 @@
 ---
-title: "ECO202 Research Paper"
+title: "ECO202 research raper"
 draft: false
 slug: "eco202-paper"
 params:
