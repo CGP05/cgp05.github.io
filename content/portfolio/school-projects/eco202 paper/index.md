@@ -4,6 +4,7 @@ draft: false
 slug: "eco202-paper"
 params:
   hideMeta: true
+  hiddenInHomeList: true
 ---
 
 This paper is my ECO202 research assignment on government spending and 
