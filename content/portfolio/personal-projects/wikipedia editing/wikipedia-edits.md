@@ -15,7 +15,9 @@ I help maintain Wikipedia by contributing edits that improve the quality and cla
   const username = 'CGP05';
   const countEl = document.getElementById('wiki-edit-count');
 
-  fetch(`https://en.wikipedia.org/w/api.php?action=query&list=users&ususers=${encodeURIComponent(username)}&usprop=editcount&format=json&origin=*`)
+  const apiUrl = `https://wikimedia.org/api/rest_v1/metrics/edited-pages/user/${encodeURIComponent(username)}`;
+
+  fetch(apiUrl)
     .then(function (response) {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -23,8 +25,9 @@ I help maintain Wikipedia by contributing edits that improve the quality and cla
       return response.json();
     })
     .then(function (data) {
-      const user = data && data.query && data.query.users && data.query.users[0];
-      const count = user && user.editcount !== undefined ? user.editcount : 'unknown';
+      const count = data && data.items && data.items[0] && data.items[0].edits !== undefined
+        ? data.items[0].edits
+        : 'unknown';
       countEl.textContent = count;
     })
     .catch(function () {
