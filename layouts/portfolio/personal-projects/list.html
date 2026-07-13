@@ -21,7 +21,7 @@
 {{- end }}
 
 <div class="project-grid">
-  {{- range .RegularPages }}
+  {{- range .RegularPagesRecursive }}
   <a class="project-card" href="{{ .RelPermalink }}">
     <div class="project-card-content">
       <h2>{{ .Title }}</h2>
