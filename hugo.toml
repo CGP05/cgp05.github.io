@@ -10,7 +10,11 @@ theme = "PaperMod"
 
 [params.homeInfoParams]
 Title = "Welcome"
-Content = """Economics and Applied Statistics student at the University of Toronto Mississauga. Skilled at econometrics and statistical analysis. I also build civic tech projects with Python, R, and SQL on [my GitHub](https://github.com/cgp05)."""
+Content = """
+Economics and Applied Statistics student at [University of Toronto Mississauga](https://utm.utoronto.ca/). 
+Skilled at econometrics and statistical analysis.  
+I also build civic tech projects with Python, R, and SQL on [my GitHub](https://github.com/cgp05).
+"""
 
 [[menu.main]]
 identifier = "home"
