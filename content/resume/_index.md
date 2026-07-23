@@ -4,7 +4,7 @@ title: "Resume"
 
 [Resume (PDF)](resume.pdf)
 
-## Relevant Coursework
+**Relevant Coursework:**
 
 - MAT133Y5: Calculus and Linear Algebra for Commerce
 - ECO200H5: Microeconomic Theory
