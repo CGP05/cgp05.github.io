@@ -20,19 +20,27 @@
 </div>
 {{- end }}
 
-<div class="project-grid">
-  {{- range .RegularPagesRecursive }}
-  <a class="project-card" href="{{ .RelPermalink }}">
-    <div class="project-card-content">
-      <h2>{{ .Title }}</h2>
-      {{- if .Summary }}
-      <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-      {{- else if .Description }}
-      <p>{{ .Description | plainify | htmlUnescape }}</p>
-      {{- end }}
-    </div>
-  </a>
+{{- range $index, $page := .RegularPagesRecursive }}
+<article class="post-entry">
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">{{ $page.Title }}</h2>
+  </header>
+  {{- if (ne ($page.Param "hideSummary") true) }}
+  <div class="entry-content">
+    {{- if $page.Summary }}
+    <p>{{ $page.Summary | plainify | htmlUnescape }}{{ if $page.Truncated }}...{{ end }}</p>
+    {{- else if $page.Description }}
+    <p>{{ $page.Description | plainify | htmlUnescape }}</p>
+    {{- end }}
+  </div>
   {{- end }}
-</div>
+  {{- if not ($page.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" $page -}}
+  </footer>
+  {{- end }}
+  <a class="entry-link" aria-label="post link to {{ $page.Title | plainify }}" href="{{ $page.RelPermalink }}"></a>
+</article>
+{{- end }}
 
 {{ end }}
