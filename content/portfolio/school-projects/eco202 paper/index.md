@@ -7,7 +7,7 @@ params:
   hiddenInHomeList: true
 ---
 
-This paper is my ECO202 research assignment on government spending and GDP growth in Canada over the past approximately 40 years, with statistical analysis done in Python.
+This paper is my ECO202 research assignment on government spending and GDP growth in Canada over the past approximately 40 years, with statistical analysis done in Python (specifically with the packages pandas, numpy, matplotlib, statsmodels)
 
 <h3>PDF of the paper</h3>
 <div id="pdf-viewer" style="border: 1px solid #ddd; padding: 12px; background: #fafafa;"></div>

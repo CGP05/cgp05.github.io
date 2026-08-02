@@ -2,6 +2,7 @@
 title: "2025 Canadian federal election data analysis map on Wikipedia"
 draft: false
 slug: "wikipedia-map"
+weight: 2
 params:
   hideMeta: true
   hiddenInHomeList: true
