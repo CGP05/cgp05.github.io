@@ -18,7 +18,7 @@ This paper is my ECO202 research assignment on government spending and GDP growt
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script>
-  const pdfUrl = '/eco202%20research%20paper%20to%20post%20on%20github.pdf';
+  const pdfUrl = '/pdfs/eco202%20research%20paper%20to%20post%20on%20github.pdf';
   const viewer = document.getElementById('pdf-viewer');
 
   if (window.pdfjsLib) {

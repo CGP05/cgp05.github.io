@@ -1,5 +1,5 @@
 ---
-title: "2025 Canadian federal election data analysis map"
+title: "2025 Canadian federal election data analysis map on Wikipedia"
 draft: false
 slug: "wikipedia-map"
 params:
@@ -11,4 +11,4 @@ Added a data visualization map of the ridings that were held and flipped in the 
 
 ![2025 Canadian federal election map showing all the riding holds and flips by party](/images/Canada_Election_2025_Results_Map_Gains%20for%20website.svg)
 
-I also help maintain Wikipedia by contributing edits that improve the quality and clarity of information, especially by finding and cleaning polling data related to Canadian elections.
+I also regularily maintain Wikipedia, especially by finding and cleaning polling data related to Canadian elections.
