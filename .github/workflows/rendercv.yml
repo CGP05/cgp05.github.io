@@ -1,0 +1,42 @@
+#made my Google Gemini
+name: Compile RenderCV Resume
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '*.yaml'
+      - '*.yml'
+      - '.github/workflows/rendercv.yml'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  build-resume:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install RenderCV & Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install rendercv
+
+      - name: Render PDF
+        run: |
+          # Finds your yaml file and compiles it locally
+          rendercv render *.yaml
+
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: RenderCV-Resume-PDF
+          path: rendercv_output/*.pdf
+          if-no-files-found: error
