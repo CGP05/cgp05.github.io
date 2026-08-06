@@ -13,14 +13,6 @@ Created a non-parametric [locally estimated scatterplot smoothing](https://en.wi
 
 ![Carney Government Approval/Disproval LOESS Graph](/images/carney-government-approval-polls-for-website.svg)
 
-This was done by formatting the table with data from a variety of Canadian pollsters (such as Abacus Data, Léger, and Ipsos) in [this table in the Wikipedia page]().
+This was done by formatting the table with data from a variety of Canadian pollsters (such as Abacus Data, Léger, and Ipsos) in [this table in the Wikipedia page](https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election#Table_of_polls_2).
 
-The R data pipeline/script 
-# Data Collection & Pipeline
-* **Polling Data Aggregation:** Extracted and formatted survey results from major Canadian pollsters (such as Abacus Data, Léger, and Ipsos).
-* **Data Cleaning:** Standardized percentage formatting, encoded missing values, and restructured approval/disapproval series into a long-format schema for modeling.
-
-### Statistical Modeling & Graphics
-* **LOESS Smoothing:** Applied category-specific LOESS smoothers using `ggplot2` in R to estimate non-linear sentiment trends over time.
-* **Plot Generation:** Rendered individual poll observations with transparent point markers alongside smooth non-parametric trendlines.
-* **SVG Sanitization:** Exported via `svglite` and post-processed to remove incompatible XML/CSS markup for MediaWiki SVG rendering compatibility.
+The R data pipeline extracted and formatted survey results from major Canadian pollsters such as Abacus Data, Léger, and Ipsos, standardizing percentage formatting, encoding missing values, and reshaping approval/disapproval series into a long-format schema for modeling, then used category-specific LOESS smoothing with `ggplot2` to estimate non-linear sentiment trends, rendered individual poll observations with transparent points alongside smooth trendlines, and exported a sanitized SVG via `svglite` for MediaWiki compatibility.

@@ -23,16 +23,22 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-identifier = "portfolio"
-name = "Portfolio"
-url = "/portfolio/"
+identifier = "personal-projects"
+name = "Personal projects"
+url = "/portfolio/personal-projects/"
 weight = 2
+
+[[menu.main]]
+identifier = "school-projects"
+name = "School projects"
+url = "/portfolio/school-projects/"
+weight = 3
 
 [[menu.main]]
 identifier = "resume"
 name = "Resume"
 url = "/resume/"
-weight = 3
+weight = 4
 
 [[menu.main]]
 identifier = "about"
