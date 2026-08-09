@@ -11,6 +11,6 @@ OpenQueensPark is a civic‑tech Streamlit app that gives an automated, non‑pa
 
 Live demo: https://openqueenspark.streamlit.app/
 
-![OpenQueensPark screenshot](/images/openqueenspark_screenshot.svg)
+![OpenQueensPark screenshot](/images/openqueenspark_streamlit_screenshot.png)
 
 ![screenshot of site](image.png)
