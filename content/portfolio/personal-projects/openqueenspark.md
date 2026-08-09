@@ -2,7 +2,7 @@
 title: "OpenQueensPark — Ontario Legislature Monitor"
 draft: false
 slug: "openqueenspark"
-weight: 10
+weight: -10
 params:
   hideMeta: true
 ---
