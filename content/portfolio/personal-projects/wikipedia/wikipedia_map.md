@@ -12,4 +12,6 @@ Added a data visualization map of the ridings that were held and flipped in the 
 
 ![2025 Canadian federal election map showing all the riding holds and flips by party](/images/Canada_Election_2025_Results_Map_Gains%20for%20website.svg)
 
+I made the map by editing an SVG (Scalable Vector Graphics ) file in Inkscape.
+
 I also regularily maintain Wikipedia, especially by finding and cleaning polling data related to Canadian elections.
