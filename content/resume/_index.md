@@ -7,6 +7,7 @@ title: "Resume"
 **Relevant Coursework:**
 
 - MAT133Y5: Calculus and Linear Algebra for Commerce
+- POL114H5: Politics in a Global World
 - ECO200H5: Microeconomic Theory
 - ECO202H5: Macroeconomic Theory and Policy
 - ECO220Y5: Introduction to Data Analysis and Applied Econometrics
