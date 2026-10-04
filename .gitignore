@@ -1,3 +1,5 @@
 /public/
 .Hugo_build.lock
 /ebug/
+/.quarto/
+**/*.quarto_ipynb

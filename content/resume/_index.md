@@ -12,4 +12,4 @@ title: "Resume"
 - ECO220Y5: Introduction to Data Analysis and Applied Econometrics
 - PHL295H5: Philosophy of Business
 - POL215H5/6H5: Canadian Government/Politics
-- POL317H5: Comparative Public Policy and Administration 
+- POL317H5: Comparative Public Policy and Administration
