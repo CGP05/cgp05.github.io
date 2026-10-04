@@ -2,7 +2,7 @@
 title: "Resume"
 ---
 
-[Resume (PDF)](resume.pdf)
+[Resume (PDF)](/resume.pdf)
 
 **Relevant Coursework:**
 
