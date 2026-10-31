@@ -1,7 +1,7 @@
 ---
 title: "CSC108 Insurance Data Project"
 draft: false
-slug: "eco202-paper"
+slug: "csc108-project"
 params:
   hideMeta: true
   hiddenInHomeList: true
